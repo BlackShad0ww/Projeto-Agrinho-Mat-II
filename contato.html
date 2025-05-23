@@ -8,7 +8,8 @@
 </head>
 <body>
   <header>
-    <h1>Contato</h1>
+    <h1>Entre em Contato</h1>
+    <p>Dúvidas, sugestões ou colaborações? Fale conosco.</p>
   </header>
 
   <nav>
@@ -16,21 +17,31 @@
       <li><a href="index.html">Início</a></li>
       <li><a href="rotas.html">Rotas</a></li>
       <li><a href="tecnologia.html">Tecnologia</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="impactos.html">Impactos</a></li>
+      <li><a href="referencias.html">Referências</a></li>
       <li><a href="contato.html">Contato</a></li>
     </ul>
   </nav>
 
   <main>
     <section>
-      <h2>Fale Conosco</h2>
-      <p>Para mais informações ou dúvidas sobre o projeto, envie um e-mail para:</p>
-      <p><strong>ProjetoTransporte@gmail.com</strong></p>
+      <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br>
+
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 - Erik Ferreira; Pietro Chiquito Meira; Raul Ramos Neves</p>
+    <p>&copy; 2025 - Este site é um projeto educacional.</p>
   </footer>
 </body>
 </html>
